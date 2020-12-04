@@ -6,7 +6,6 @@ using Smod2.API;
 using Smod2.Attributes;
 using Smod2.EventHandlers;
 using Smod2.Events;
-using Smod2.Commands;
 
 namespace SCP_012
 {
@@ -18,7 +17,7 @@ namespace SCP_012
         name = "SCP-012",
         SmodMajor = 3,
         SmodMinor = 9,
-        SmodRevision = 4,
+        SmodRevision = 5,
         version = "1.3")]
     public class PluginHandler : Plugin, IEventHandlerRoundStart, IEventHandlerRoundEnd
     {
