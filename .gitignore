@@ -1,5 +1,5 @@
 *.sln
 bin/
 obj/
-package/
+packages/
 .vs/
