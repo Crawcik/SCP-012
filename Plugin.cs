@@ -88,7 +88,7 @@ namespace SCP_012
                 foreach (Player player in this.Server.GetPlayers(x => !(x.TeamRole.Team == TeamType.SPECTATOR || x.TeamRole.Team == TeamType.SCP || x.TeamRole.Team == TeamType.TUTORIAL)))
                 {
                     Vector ply_vector = player.GetPosition();
-                    if (scp_vector.y - ply_vector.y < 2f && Vector.Distance(scp_vector, ply_vector) <= 8.5f)
+                    if (ply_vector.y - scp_vector.y < 2f && Vector.Distance(scp_vector, ply_vector) <= 8.5f)
                     {
                         if (player_lure_points.ContainsKey(player.PlayerId))
                         {
