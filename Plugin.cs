@@ -17,8 +17,8 @@ namespace SCP_012
         name = "SCP-012",
         SmodMajor = 3,
         SmodMinor = 9,
-        SmodRevision = 5,
-        version = "1.3")]
+        SmodRevision = 7,
+        version = "1.4")]
     public class PluginHandler : Plugin, IEventHandlerRoundStart, IEventHandlerRoundEnd
     {
         Vector scp_vector;
